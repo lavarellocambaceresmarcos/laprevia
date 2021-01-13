@@ -1,0 +1,267 @@
+
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.h2Portada {
+	font-size: 20px;
+}
+
+
+.bodyIndex {
+	color: black;
+}
+
+.header ul li {
+	text-decoration: none;
+	display: inline-block;
+	list-style: none;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.footer {
+	background-color: black;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.footer ul li {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+.footer ul {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.header {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	color: white;
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+
+
+
+.tituloFooter {
+	font-size: 30px;
+}
+
+.ulNavbar {
+	word-spacing: 100px;
+}
+
+.logo {
+	margin-right: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	margin-left: 0px;
+	
+}
+
+
+.navBar {
+	
+}
+
+.navBar ul li a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+.mainIndex {
+	color: white;
+	background-image:url(../imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;
+  	padding-top: 200px;
+  	padding-bottom: 300px;
+}
+
+.tituloPortada {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 300px;
+
+}
+
+
+.marcas {
+	display: flex;
+	justify-content: center;
+}
+
+.marcas ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+..marcas ul li img {
+	position: fixed;
+}
+
+.logos:hover {
+	filter: sepia(60%);
+	box-shadow: 0px 0px 15px 15px rgba(202, 169, 78, 0.5) ;
+}
+
+.logos {
+	height: 80px;
+	margin-top: 50px;
+	margin-right: 50px;
+	border: 10px solid rgb(202, 169, 78) ;
+	cursor: pointer;
+	border-radius: 50px;
+
+}	
+
+.referencia {
+	margin-left: 150px;
+}
+
+.h1Productos {
+	background-color: rgba(202, 169, 78, 0.5);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: black;
+	text-align: center;
+}
+
+.h1Nosotros {
+	background-color: rgba(202, 169, 78, 0.5);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: black;
+	text-align: center;
+}
+
+.h1Contacto {
+	background-color: rgba(202, 169, 78, 0.5);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: black;
+	text-align: center;	
+}
+
+
+.mainNosotros {
+	background-image:url(../imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;
+  	padding-top: 300px;
+  	margin-bottom: 0px;
+}
+
+.mainProductos {
+	background-image:url(../imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;
+  	padding-top: 50px;
+}
+
+.mainContacto {
+	background-image:url(../imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;		
+  	padding-bottom: 0px;
+  	padding-top: 200px;
+}
+
+.h1Contacto {
+	margin-bottom: 0px;
+}
+
+.sectionNosotros {
+	background-color: rgba(202, 169, 78, 0.7);
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.h1Nosotros {
+	margin-bottom: 0px;
+}
+
+.textoNosotros {
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.sectionContacto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	background-color: rgba(202, 169, 78, 0.7);
+	margin-top: 50px;
+}
+
+.PdeContacto {
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+.sectionContacto ul li {
+	list-style: none;
+}
+
+.imgContacto {
+	height: 50px;
+}
+
+.sectionContactoLogos ul li {
+	list-style: none;
+
+}
+
+.ulContactoLogos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.ulContactoLogos li img {
+	margin-right: 25px;
+}
+
+
+.tituloTexto {
+	margin-top: 50px;
+	color: black;
+}
