@@ -1,4 +1,4 @@
-function permisoDeConsumo () {
+/*function permisoDeConsumo () {
 	var edad = parseInt(prompt("ingrese su edad"))
 
 	if (edad<=18) {
@@ -11,7 +11,7 @@ function permisoDeConsumo () {
 	}
 }
 
-permisoDeConsumo () 
+permisoDeConsumo () */
 
 
 
@@ -21,7 +21,7 @@ permisoDeConsumo ()
 
 
 
-/*var cantidadAlumnos = parseInt(prompt("ingrese la cantidad de alumnos"))
+var cantidadAlumnos = parseInt(prompt("ingrese la cantidad de alumnos"))
 
 function resumenNota () {
 	var nombre = prompt("ingrese el nombre del alumno");
@@ -33,8 +33,20 @@ function resumenNota () {
 	var nota3=parseInt (prompt("ingrese la nota del tercer trimestre"));
 
 	while ((nota1<0 || nota2<0 || nota3<0) ||(nota1>10 || nota2>10 || nota3>10)){
-		console.log ("Datos inválidos") 
-		resumenNota()
+
+		console.log ("Datos inválidos")
+
+		alert ("Datos inválidos")
+
+		var nombre = prompt("ingrese el nombre del alumno");
+
+		var nota1=parseInt (prompt("ingrese la nota del primer trimestre"));
+
+		var nota2=parseInt (prompt("ingrese la nota del segundo trimestre"));
+	
+		var nota3=parseInt (prompt("ingrese la nota del tercer trimestre"));
+ 
+		
 
 	}
 
@@ -54,17 +66,8 @@ function resumenNota () {
 	
 for (var i = 0; i < cantidadAlumnos; i++) {
   resumenNota()
-}*/
+}
 
-
-
-
-
-	
-	/*resumenNota()
-	resumenNota()
-	resumenNota()
-	resumenNota()*/
 
 
 
