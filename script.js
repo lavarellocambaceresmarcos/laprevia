@@ -1,17 +1,20 @@
-/*function permisoDeConsumo () {
-	var edad = parseInt(prompt("ingrese su edad"))
+var edad = parseInt(prompt("ingrese su edad"))
+
+function permisoDeConsumo (edad) {
+	
 
 	if (edad<=18) {
 		console.log ("usted es menor de edad, no puede consumir alcohol")
 		alert ("usted es menor de edad,no puede consumir alcohol")
-		permisoDeConsumo()
+		var edad = parseInt(prompt("ingrese su edad"))
+		permisoDeConsumo (edad)
 	} else {
 		console.log ("Bienvenido, disfrute su compra") 
 		alert ("Bienvenido,disfrute su compra")
 	}
 }
 
-permisoDeConsumo () */
+permisoDeConsumo (edad) 
 
 
 
@@ -21,7 +24,7 @@ permisoDeConsumo () */
 
 
 
-var cantidadAlumnos = parseInt(prompt("ingrese la cantidad de alumnos"))
+/*var cantidadAlumnos = parseInt(prompt("ingrese la cantidad de alumnos"))
 
 function resumenNota () {
 	var nombre = prompt("ingrese el nombre del alumno");
@@ -66,7 +69,7 @@ function resumenNota () {
 	
 for (var i = 0; i < cantidadAlumnos; i++) {
   resumenNota()
-}
+}*/
 
 
 
