@@ -36,7 +36,7 @@ function resumenNota () {
 
 		console.log ("Datos inválidos")
 
-		alert ("Datos inválidos")
+		alert ("Los datos ingresados son inválidos. Porfavor, vuelva a ingresarlos.")
 
 		var nombre = prompt("ingrese el nombre del alumno");
 
