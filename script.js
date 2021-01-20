@@ -186,6 +186,7 @@ function cliente (nombre,edad) {
 	this.nombre=nombre
 	this.edad=edad
 }
+
 var nombre= prompt("ingrese su nombre")
 
 var edad = prompt ("ingrese su edad")
@@ -195,12 +196,31 @@ var cliente= new cliente (nombre,edad)
 console.log (cliente)
 
 
+
+/*DESAFÍO DE LA CLASE 6-----ARRAYS*/
+
 var datosCliente = prompt("Quisiera  usted recuperar algún dato(nombre o edad?")
 	if( (!cliente[datosCliente]) ) {
-		alert("no contamos con ese dato")
-		console.log("no contamos con ese dato")
+		var hola = ("Hola señor Thomson");
+		var holaSrThomson= (" creo que le habla a usted...");
+		var negarleAlSrThomson= hola.concat(holaSrThomson)
+		var trabajoMuyDuro = alert(negarleAlSrThomson)
+		
+
 	} else { 
+
 		alert(cliente[datosCliente])
+		console.log(cliente[datosCliente])
+		
+		var monoRiel= ["train",22,"springfield"];
+		console.log (monoRiel.join("*"))
+		console.log (monoRiel.slice(0,2));
+		
+		var homero = ("mira Marge!");
+		var homeroDIce=("A la grande le puse cuca");
+		var frseCompleta= homero.concat(homeroDIce);
+		var dialogo= alert (frseCompleta);
+
 	} if (datosCliente=="no") {
 		alert ("Continúe a la página")
 	}
