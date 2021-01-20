@@ -1,4 +1,4 @@
-
+/*GENERAL*/
 
 * {
 	font-family: 'Lato', sans-serif;
@@ -14,44 +14,22 @@ ul li a {
 	color: white;
 }
 
+/*PORTADA*/
+
+.tituloPortada {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 300px;
+
+}
+
 .h2Portada {
 	font-size: 20px;
 }
 
 
-.bodyIndex {
-	color: black;
-}
-
-.header ul li {
-	text-decoration: none;
-	display: inline-block;
-	list-style: none;
-	padding-top: 20px;
-	font-size: 20px;
-}
-
-.footer {
-	background-color: black;
-	width: 100%;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	color: white;
-}
-
-.footer ul li {
-	list-style: none;
-	text-decoration: none;
-	text-align: center;
-}
-
-.footer ul {
-	margin-top: 30px;
-	font-size: 20px;
-}
+/*HEADER*/
 
 .header {
 	background-color: black;
@@ -62,10 +40,12 @@ ul li a {
 	padding-bottom: 40px;
 }
 
-
-
-.tituloFooter {
-	font-size: 30px;
+.header ul li {
+	text-decoration: none;
+	display: inline-block;
+	list-style: none;
+	padding-top: 20px;
+	font-size: 20px;
 }
 
 .ulNavbar {
@@ -92,24 +72,81 @@ ul li a {
 	text-decoration: none;
 }
 
+
+
+/*FOOTER*/
+
+.footer {
+	background-color: black;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.footer ul li {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+.footer ul {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+
+.tituloFooter {
+	font-size: 30px;
+}
+
+.referencia {
+	margin-left: 150px;
+}
+
+/*CONFIG DE LOS MAIN DE CADA SECCIÓN*/
+
 .mainIndex {
 	color: white;
 	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
 	background-size: cover;
-  	/*background-position: center center;*/
   	background-attachment: fixed;
   	padding-top: 200px;
   	padding-bottom: 300px;
 }
 
-.tituloPortada {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding-top: 300px;
-
+.mainNosotros {
+	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;
+  	padding-top: 300px;
+  	margin-bottom: 0px;
 }
 
+.mainProductos {
+	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;
+  	padding-top: 50px;
+}
+
+.mainContacto {
+	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
+	background-size: cover;
+  	/*background-position: center center;*/
+  	background-attachment: fixed;		
+  	padding-bottom: 0px;
+  	padding-top: 200px;
+}
+
+
+
+/*ZONA PRODUCTOS-LOGOS Y ETC*/
 
 .marcas {
 	display: flex;
@@ -140,9 +177,30 @@ ul li a {
 
 }	
 
-.referencia {
-	margin-left: 150px;
+/*SECCIONES*/
+
+.sectionNosotros {
+	background-color: rgba(202, 169, 78, 0.7);
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
 }
+
+.sectionContacto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	background-color: rgba(202, 169, 78, 0.7);
+	margin-top: 50px;
+}
+
+
+/*H1 DE LAS SECCIONES*/
 
 .h1Productos {
 	background-color: rgba(202, 169, 78, 0.5);
@@ -165,51 +223,18 @@ ul li a {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: black;
-	text-align: center;	
-}
-
-
-.mainNosotros {
-	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
-	background-size: cover;
-  	/*background-position: center center;*/
-  	background-attachment: fixed;
-  	padding-top: 300px;
-  	margin-bottom: 0px;
-}
-
-.mainProductos {
-	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
-	background-size: cover;
-  	/*background-position: center center;*/
-  	background-attachment: fixed;
-  	padding-top: 50px;
-}
-
-.mainContacto {
-	background-image:url(imagenes/fotoBackgroundDeInicio.jpg);
-	background-size: cover;
-  	/*background-position: center center;*/
-  	background-attachment: fixed;		
-  	padding-bottom: 0px;
-  	padding-top: 200px;
-}
-
-.h1Contacto {
-	margin-bottom: 0px;
-}
-
-.sectionNosotros {
-	background-color: rgba(202, 169, 78, 0.7);
-	margin-top: 50px;
-	color: white;
 	text-align: center;
-	font-size: 30px;
+	margin-bottom: 0px;	
 }
+
+
 
 .h1Nosotros {
 	margin-bottom: 0px;
 }
+
+
+/*TEXTO DE PRESENTACIÓN DE LA EMPRESA*/
 
 .textoNosotros {
 	margin-bottom: 0px;
@@ -219,17 +244,13 @@ ul li a {
 	color: black;
 }
 
-.sectionContacto {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	color: white;
-	font-size: 40px;
-	text-align: center;
-	background-color: rgba(202, 169, 78, 0.7);
+.tituloTexto {
 	margin-top: 50px;
+	color: black;
 }
+
+
+/*CONFIG DE LOS ITEMS DE CONTACTO*/
 
 .PdeContacto {
 	margin-top: 50px;
@@ -261,7 +282,3 @@ ul li a {
 }
 
 
-.tituloTexto {
-	margin-top: 50px;
-	color: black;
-}
