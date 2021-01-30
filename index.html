@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="estilos.css">
 	<title>laprevia.com</title>
-	
+
 </head>
+
 <body class="bodyIndex">
 	<header class="header fixed-top">
 		<section class="logo">
 			<a href="#inicio">
-				<img src="imagenes/logoLaPrevia2.png" alt="">				
+				<img src="imagenes/logoLaPrevia2.png" alt="">
 			</a>
 		</section>
 		<section class="navBar">
-		<ul class="ulNavbar">
-			<li><a href="#inicio">INICIO</a></li>
-			<li><a href="#Productos">PRODUCTOS</a></li>
-			<li><a href="#sobreNosotros">NOSOTROS</a></li>
-			<li><a href="#contacto">CONTACTO</a></li>
-		</ul>
+			<ul class="ulNavbar">
+				<li><a href="#inicio">INICIO</a></li>
+				<li><a href="#Productos">PRODUCTOS</a></li>
+				<li><a href="#sobreNosotros">NOSOTROS</a></li>
+				<li><a href="#contacto">CONTACTO</a></li>
+			</ul>
 		</section>
-		
+
 	</header>
 
 	<main class="mainIndex container col-md-12" id="inicio">
 		<div class="tituloPortada top">
-				<h1 class="h1Portada">
+			<h1 class="h1Portada">
 				Bienvenido a Laprevia.com
-				</h1>
-				<h2 class="h2Portada">
-					Tu bebida favorita a solo un click de distancia
-				</h2>
+			</h1>
+			<h2 class="h2Portada">
+				Tu bebida favorita a solo un click de distancia
+			</h2>
 		</div>
 	</main>
 
 	<main class="mainProductos" id="Productos">
-		<h1 class="h1Productos">
-			Nuestros productos
-		</h1>	
+		<section class="sectionProductos-h1">
+			<h1 class="h1Productos">
+				PRODUCTOS
+			</h1>
 		</section>
-		
-		<section class="marcas">
+
+		<!--<section class="marcas">
 			<ul>
 				<li>
 					<img src="imagenes/logoBrahma.png" alt="" class="logos">
 				</li>
 				<li>
 					<img src="imagenes/logoCorona.png" alt="" class="logos">
-				</li>
-				<li>
-					<img src="imagenes/logoFrizze.jpg" alt="" class="logos">
 				</li>
 				<li>
 					<img src="imagenes/logoHeineken.jpg" alt="" class="logos">
@@ -68,11 +69,177 @@
 					<img src="imagenes/logoStella.jpg" alt="" class="logos">
 				</li>
 			</ul>
+		</section>-->
+		<!--SECCIÓN CARRITO/COMPRAS-->
+		<section class="store">
+			<div class="container">
+				<div class="items row boxDeElementos">
+					<div class="col-md-6">
+
+						<div class="">
+							<div class="item shadow">
+								<h3 class="item-title">Pack Brahma</h3>
+								<img class="item-image" src="imagenes/packBrahma.jpg">
+
+								<div class="item-details">
+									<h4 class="item-price">$1000 x 6/U</h4>
+									<button class="item-button btn btn-primary addToCart" id="botonCompra">AÑADIR AL
+										CARRITO</button>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="item shadow">
+								<h3 class="item-title">Pack Quilmes</h3>
+
+								<img class="item-image" src="imagenes/packQuilmes.jpg">
+
+								<div class="item-details">
+									<h4 class="item-price">$800 x 6/U</h4>
+									<button class="item-button btn btn-primary addToCart" id="packQuilmes">AÑADIR AL CARRITO</button>
+								</div>
+							</div>
+						</div>
+
+						<div class=" ">
+							<div class="item shadow">
+								<h3 class="item-title">Pack Corona</h3>
+
+								<img class="item-image" src="imagenes/packCorona.jpg">
+
+								<div class="item-details">
+									<h4 class="item-price">$1000 x 6/U</h4>
+									<button class="item-button btn btn-primary addToCart" id="packCorona">AÑADIR AL CARRITO</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 ">
+						<div class="">
+							<div class="item shadow">
+								<h3 class="item-title">Pack Heineken</h3>
+
+								<img class="item-image" src="imagenes/packHeineken.jpg">
+
+								<div class="item-details">
+									<h4 class="item-price">$1200 x 6/U</h4>
+									<button class="item-button btn btn-primary addToCart" id="packHeineken">AÑADIR AL CARRITO</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="">
+							<div class="item shadow">
+								<h3 class="item-title">Pack Patagonia</h3>
+
+								<img class="item-image" src="imagenes/packPatagonia.jpg">
+								<div class="item-details">
+									<h4 class="item-price">$1200 x 6/U</h4>
+									<button class="item-button btn btn-primary addToCart" id="packPatagonia">AÑADIR AL CARRITO</button>
+								</div>
+							</div>
+						</div>
+						<div class=" ">
+							<div class="item shadow">
+								<h3 class="item-title">Pack Stella Artois</h3>
+
+								<img class="item-image" src="imagenes/packStella.jpg">
+								<div class="item-details">
+									<h4 class="item-price">$1200 x 6/U</h4>
+									<button class="item-button btn btn-primary addToCart" id="packStella">AÑADIR AL CARRITO</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FIN SECCIÓN-->
+		<!-- EMPIEZA  COMPRAS -->
+		<section class="shopping-cart">
+			<div class="container divDeCompras">
+				<h1 class="text-center">COMPRAS</h1>
+				<hr>
+				<div class="row">
+					<div class="col-6">
+						<div class="shopping-cart-heZader">
+							<h6>Producto</h6>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="shopping-cart-header">
+							<h6 class="text-truncate">Precio</h6>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="shopping-cart-header">
+							<h6>Cantidad</h6>
+						</div>
+					</div>
+				</div>
+				<!-- ? START SHOPPING CART ITEMS -->
+				<div class="shopping-cart-items shoppingCartItemsContainer">
+				</div>
+				<!-- ? END SHOPPING CART ITEMS -->
+
+				<!-- START TOTAL -->
+				<div class="row">
+					<div class="col-12">
+						<div class="shopping-cart-total d-flex align-items-center">
+							<p class="mb-0">Total</p>
+							<p class="ml-4 mb-0 shoppingCartTotal">$0</p>
+							<div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+								data-delay="2000">
+								<div class="toast-header">
+									<span>✅</span>
+									<strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+									<button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+										aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="toast-body text-white">
+									Se aumentó correctamente la cantidad
+								</div>
+							</div>
+							<button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+								data-target="#comprarModal">Comprar</button>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Pronto recibirá su pedido</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
 		</section>
 	</main>
 	<main class="mainNosotros" id="sobreNosotros">
 		<h1 class="h1Nosotros">
-			Sobre nosotros
+			SOBRE NOSOTROS
 		</h1>
 
 		<section class="sectionNosotros">
@@ -81,13 +248,17 @@
 				"Somos una empresa pequeña, pero con grandes ambiciones"
 			</p>
 			<br>
-			<p class="textoNosotros container">			
-			La idea de fundar "La previa" surgió debido a las restricciones causadas por el aislamiento preventivo; buscábamos la forma de acercarnos a nuestros clientes sin la necesidad de tener que interactuar personalmente, evitando así cualquier contacto estrecho. 
+			<p class="textoNosotros container">
+				La idea de fundar "La previa" surgió debido a las restricciones causadas por el aislamiento preventivo;
+				buscábamos la forma de acercarnos a nuestros clientes sin la necesidad de tener que interactuar
+				personalmente, evitando así cualquier contacto estrecho.
 			</p>
 			<br>
 			<p class="textoNosotros container">
-				Nuestra función es facilitarle al cliente la compra de bebidas y licores, tanto para un encuentro familiar como para el disfrute propio. De esta manera cada cual puede reservar su bebida favorita a solo un click de distancia, y "La previa" se lo alcanzará a su domicilio.
-			
+				Nuestra función es facilitarle al cliente la compra de bebidas y licores, tanto para un encuentro
+				familiar como para el disfrute propio. De esta manera cada cual puede reservar su bebida favorita a solo
+				un click de distancia, y "La previa" se lo alcanzará a su domicilio.
+
 			</p>
 			<br>
 
@@ -95,37 +266,44 @@
 	</main>
 	<main class="mainContacto" id="contacto">
 		<h1 class="h1Contacto">
-			Contacto/Pedidos
+			CONTACTO/PEDIDOS
 		</h1>
 		<section class="sectionContacto">
-				<ul> <p class="PdeContacto">CONTACTAME :</p>
-					<li>
-						Whatsapp
-						<br>
-						+54 1139018081
-					</li>
-					<li>
-						G-mail
-						<br>
-						lavarellomarcos@gmail.com
-					</li>
-				</ul>
-			
+			<ul>
+				<p class="PdeContacto">CONTACTAME :</p>
+				<li>
+					Whatsapp
+					<br>
+					+54 1139018081
+				</li>
+				<li>
+					G-mail
+					<br>
+					lavarellomarcos@gmail.com
+				</li>
+			</ul>
+
 			<section class="sectionContactoLogos">
 				<ul class="ulContactoLogos">
 					<li>
-						<a href="https://api.whatsapp.com/send/?phone=%2B541139018081&text=Hola+%21+Quiero+hacerte+un+pedido+%3A&app_absent=0">
+						<a
+							href="https://api.whatsapp.com/send/?phone=%2B541139018081&text=Hola+%21+Quiero+hacerte+un+pedido+%3A&app_absent=0">
 							<img src="imagenes/wapp.png" alt="" class="imgContacto">
 						</a>
 					</li>
-					<li><img src="imagenes/gmail.png" alt="" class="imgContacto"></li>
+					<li>
+						<a href="mailto:lavarellomarcos@gmail.com">
+							<img src="imagenes/gmail.png" alt="" class="imgContacto">
+						</a>
+					</li>
 				</ul>
 			</section>
 		</section>
 	</main>
 	<footer class="footer fixed-bottom">
 		<section>
-			<ul><p class="tituloFooter">Redes sociales:</p>
+			<ul>
+				<p class="tituloFooter">Redes sociales:</p>
 				<li>Facebook</li>
 				<li>Instagram</li>
 				<li>Whatsapp</li>
@@ -134,11 +312,18 @@
 		</section>
 		<section>
 			<p>Todos los derechos reservados - Marcos Lavarello Cambaceres Thomsen Hall - Copyright 2021</p>
-			<p class="referencia">Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a></p>
+			<p class="referencia">Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik"
+					title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">
+					www.flaticon.es</a></p>
 		</section>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-	<script src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+	<script src="script_laPrevia.js"></script>
 </body>
+
 </html>
